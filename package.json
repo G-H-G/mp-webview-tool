@@ -1,0 +1,99 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "mp-webview-tool",
+        "scope": null,
+        "escapedName": "mp-webview-tool",
+        "name": "mp-webview-tool",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/guoshuaibin/git/ecology-mobile-next"
+    ]
+  ],
+  "_from": "mp-webview-tool@latest",
+  "_hasShrinkwrap": false,
+  "_id": "mp-webview-tool@1.0.1",
+  "_inCache": true,
+  "_location": "/mp-webview-tool",
+  "_nodeVersion": "8.5.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/mp-webview-tool_1.0.1_1546025782570_0.2685008884436564"
+  },
+  "_npmUser": {
+    "name": "mrguo",
+    "email": "shuaibin.guo@gmail.com"
+  },
+  "_npmVersion": "6.5.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "mp-webview-tool",
+    "scope": null,
+    "escapedName": "mp-webview-tool",
+    "name": "mp-webview-tool",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/mp-webview-tool/-/mp-webview-tool-1.0.1.tgz",
+  "_shasum": "c067939341fab37c2c0ac0d9450026d726650e1e",
+  "_shrinkwrap": null,
+  "_spec": "mp-webview-tool",
+  "_where": "/Users/guoshuaibin/git/ecology-mobile-next",
+  "author": {
+    "name": "mrguo"
+  },
+  "dependencies": {
+    "weixin-js-sdk": "^1.4.0-test"
+  },
+  "description": "适用于需要在微信小程序中嵌套使用的移动端页面，提供返回小程序首页按钮、向小程序传参等方法",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "css-loader": "^0.28.7",
+    "opener": "^1.4.3",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.19.0",
+    "url-loader": "^1.1.2",
+    "webpack": "^3.8.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dist": {
+    "integrity": "sha512-rI3Va4jJte5oul34CYOZACi3YYYJlmRDW+HKpW1hjayiY5I0EzrFp4GgFZWoA8+bzSH2X4WQ7j+pmsVqQD+xZw==",
+    "shasum": "c067939341fab37c2c0ac0d9450026d726650e1e",
+    "tarball": "https://registry.npmjs.org/mp-webview-tool/-/mp-webview-tool-1.0.1.tgz",
+    "fileCount": 11,
+    "unpackedSize": 19829,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcJns3CRA9TVsSAnZWagAAflUP/R925epbstEXQN31SILF\nQcs0GR6DJUyEvfLAaTUl2kaewRCF2Aa2gviJf7l77P0VRprhk3C2BGuuIgtA\nhyE7Axo1ekTpbrZ5B10S406nIxccsKAB3hq99RNf2ekviCIQc2tgF/ABROdY\ndgdNxoT+kkQsmclK6ks25mjrRn5aYv6o1pz5l7Frpd9x9+bC/dOQ2lD9KAT9\nKWruMzY1HAQMALXCfRsVKqfWyc6h/orUAgekgWSghslOJFMDNrC+CbOAOiKg\nz9FtYUmpqPU8PNsyJW3d+WV1k+Ma760hC9bl530b6N+PnoIAh0U4HuIfWdSv\ndyZAbOxMgwT7EIdxX/jcKTiewGngKBaHhcBvoFpc96fDN++Is0THqNHL/n4B\nI8SkYTzWG0X3/JY14odu1m/0LoHf0jUGvPmJLCq8uw62usxlotuIN9EZyZdV\niAZc7xEKxzSGNVuVo2aU6hVj9RBibQz4NKzLLpt/f+WCM/cQPrfc2TJiNGg9\nxQXjeggRzYSQ2FiHCeQFWJChrgVrGvCTNXO3vijyY/mcqgaWDQ25HIoxYF/Q\nG823UvXm3K1nQhDc3HmYxhXlMgf3FylDoLIDRf6Ac/A5woJNgwtCxjmgAYo3\n/j7K989R8dLwycxvOJuxrlvY19I4x+/bJF3eBTDx3OYkb4Fhlsv4t/DYPQbe\nJimV\r\n=TFOH\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "keywords": [
+    "wechat",
+    "miniprogram",
+    "webview"
+  ],
+  "license": "ISC",
+  "main": "dist/mp-webview-tool.js",
+  "maintainers": [
+    {
+      "name": "mrguo",
+      "email": "shuaibin.guo@gmail.com"
+    }
+  ],
+  "name": "mp-webview-tool",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "build": "webpack --config ./build/webpack-mp.config.js",
+    "test": "opener ./test/index.html"
+  },
+  "version": "1.0.3"
+}
