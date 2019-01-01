@@ -91,9 +91,13 @@
   "name": "mp-webview-tool",
   "optionalDependencies": {},
   "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/G-H-G/mp-webview-tool.git"
+  },
   "scripts": {
     "build": "webpack --config ./build/webpack-mp.config.js",
     "test": "opener ./test/index.html"
   },
-  "version": "1.0.3"
+  "version": "1.0.4"
 }
